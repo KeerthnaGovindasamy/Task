@@ -1,0 +1,95 @@
+{
+  "assessmentCategory": ["Assignment", "Quiz", "Presentation", "Lab", "Viva"],
+  "assessmentDetails": [
+    {
+      "assessmentNo": 1,
+      "assessmentStatus": [
+        { "status": "completed", "percentage": 26 },
+        { "status": "completed", "percentage": 90 },
+        { "status": "completed", "percentage": 70 },
+        { "status": "completed", "percentage": 48 },
+        { "status": "completed", "percentage": 92 }
+      ]
+    },
+    {
+      "assessmentNo": 2,
+      "assessmentStatus": [
+        { "status": "completed", "percentage": 74 },
+        { "status": "completed", "percentage": 40 },
+        { "status": "completed", "percentage": 42 },
+        { "status": "completed", "percentage": 76 },
+        null
+      ]
+    },
+    {
+      "assessmentNo": 3,
+      "assessmentStatus": [
+        { "status": "completed", "percentage": 50 },
+        { "status": "completed", "percentage": 73 },
+        { "status": "completed", "percentage": 24 },
+        null,
+        null
+      ]
+    },
+    {
+      "assessmentNo": 4,
+      "assessmentStatus": [
+        { "status": "pending", "percentage": 100 },
+        { "status": "completed", "percentage": 77 },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "assessmentNo": 5,
+      "assessmentStatus": [
+        null,
+        { "status": "completed", "percentage": 25 },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "assessmentNo": 6,
+      "assessmentStatus": [
+        null,
+        { "status": "completed", "percentage": 52 },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "assessmentNo": 7,
+      "assessmentStatus": [
+        null,
+        { "status": "pending", "percentage": 100 },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "assessmentNo": 8,
+      "assessmentStatus": [
+        null,
+        { "status": "pending", "percentage": 100 },
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "assessmentNo": 9,
+      "assessmentStatus": [
+        null,
+        { "status": "pending", "percentage": 100 },
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+}

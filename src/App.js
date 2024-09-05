@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import MainLyout from "./components/MainLyout";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="p-3 bg-gray-100 min-h-screen">
+      <div className="bg-white rounded-lg shadow-xl p-4 h-[calc(100vh-4%)] w-[calc(100vw-6%)] sm:w-[calc(100vw-4%)] md:w-[calc(100vw-3%)] lg:w-[calc(100vw-2%)] fixed overflow-auto scrollable-container">
+        <MainLyout />
+      </div>
     </div>
   );
 }

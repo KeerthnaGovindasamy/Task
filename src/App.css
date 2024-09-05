@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+// for creating customised scroll bar
+
+.scrollable-container {
+  overflow: auto;
+}
+
+.scrollable-container::-webkit-scrollbar {
+  width: 6px;
+  height: 8px;
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 40px;
+}
+
+.scrollable-container::-webkit-scrollbar-corner {
+  background: transparent;
+}
